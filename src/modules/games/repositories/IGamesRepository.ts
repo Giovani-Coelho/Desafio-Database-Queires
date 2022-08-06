@@ -6,3 +6,5 @@ export interface IGamesRepository {
   countAllGames(): Promise<[{ count: string }]>;
   findUsersByGameId(id: string): Promise<User[]>;
 }
+
+//.
