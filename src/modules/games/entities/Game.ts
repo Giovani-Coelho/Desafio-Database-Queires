@@ -26,3 +26,4 @@ export class Game {
   @UpdateDateColumn()
   updated_at: Date;
 }
+//
